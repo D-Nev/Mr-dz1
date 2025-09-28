@@ -123,7 +123,7 @@ class Server
         }
         catch (IOException)
         {
-            Console.WriteLine("[-] З’єднання перервано під час обміну.");
+            Console.WriteLine("З’єднання перервано під час обміну.");
         }
         catch (Exception ex)
         {
@@ -139,7 +139,7 @@ class Server
             finally
             {
                 client.Close();
-                Console.WriteLine("[*] Сесію з клієнтом закрито сервером.");
+                Console.WriteLine("Сесію з клієнтом закрито сервером.");
             }
         }
     }
